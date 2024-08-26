@@ -1,0 +1,88 @@
+body {
+    background-color: #4b0082;
+    color: white;
+    margin: 20px;
+    background-image: url(/images/goku.png);
+    background-repeat: no-repeat;
+    background-position: right 20px top 0px;
+
+}
+
+h1 {
+    text-align: center;
+    color: #daa51f;
+    border: dotted #edca09;
+    background-color: #8b008b;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px;
+    box-sizing: border-box;
+}
+
+#dados_pessoais {
+    border: 3px solid #edca09;
+    font-family: 'Arial';
+    font-size: 14px;
+}
+
+#dados_pessoais input {
+    width: 1125px;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    transition: all .2s;
+}
+
+#dados_pessoais input:hover {
+    background-color: #dbdbdb;
+}
+
+#dados_pessoais select {
+    width: 700px;
+    padding: 5px;
+    transition: all .2s;
+    border: none;
+    border-radius: 5px;
+}
+
+#dados_extra {
+    border: 3px solid #edca09;
+    font-family: 'Arial';
+    font-size: 15px;
+}
+
+#dados_extra select {
+    width: 700px;
+    padding: 5px;
+    transition: all .2s;
+    border: none;
+    border-radius: 5px;
+}
+
+#dados_extra select:hover {
+    background-color: rgb(187, 187, 187);
+}
+
+#dados_pessoais select:hover {
+    background-color: rgb(187, 187, 187);
+}
+
+#dados_extra textarea {
+    width: 1500px;
+    height: 80px;
+}
+
+.botoes input {
+    border: none;
+    width: 100px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: #9932cc;
+    color: white;
+    transition: all .2s;
+}
+
+.botoes input:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
